@@ -1,4 +1,1 @@
-git rm -r --cached 03c-api-testing-karate/target
-git add .
-git commit -m "fix: elimina target del repositorio y agrega .gitignore"
-git push
+target/
