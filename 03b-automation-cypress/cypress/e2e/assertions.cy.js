@@ -1,7 +1,7 @@
 describe('Assertions Avanzadas', () => {
 
   beforeEach(() => {
-    cy.visit('https://the-internet.herokuapp.com/login')
+    cy.visit('/login')
   })
 
   it('Verificar múltiples propiedades de un elemento', () => {
