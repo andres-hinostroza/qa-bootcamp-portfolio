@@ -5,6 +5,6 @@ import com.intuit.karate.junit5.Karate;
 class JsonPlaceholderTest {
     @Karate.Test
     Karate testAll() {
-        return Karate.run("usuarios").relativeTo(getClass());
+        return Karate.run("usuarios", "posts").relativeTo(getClass());
     }
 }
