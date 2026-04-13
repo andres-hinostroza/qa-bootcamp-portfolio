@@ -7,7 +7,6 @@ class LoginPage {
 
     WebDriver driver;
 
-    // Selectores
     By campoUsername = By.id("username");
     By campoPassword = By.id("password");
     By botonLogin    = By.cssSelector("button[type='submit']");

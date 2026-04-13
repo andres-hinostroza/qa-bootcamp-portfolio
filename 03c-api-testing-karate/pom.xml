@@ -39,7 +39,10 @@
               <artifactId>maven-surefire-plugin</artifactId>
               <version>2.22.2</version>
               <configuration>
-                <jvm>C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot\bin\java.exe</jvm>
+                <argLine>
+                 --add-opens java.base/sun.misc=ALL-UNNAMED
+                 --add-opens java.base/java.lang=ALL-UNNAMED
+                </argLine>
               </configuration>
             </plugin>
         </plugins>
